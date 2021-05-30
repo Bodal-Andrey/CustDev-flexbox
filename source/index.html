@@ -10,238 +10,268 @@
 
 <body>
     <header class="main-header">
-        <nav class="main-header__nav">
-            <ul class="cities-navigation__list>">
-                <li class="cities-navigation__item current-city">
-                    <a class="cities-navigation__link" href="#">Санкт-Петербург</a>
-                </li>
-                <li class="cities-navigation__item">
-                    <a class="cities-navigation__link" href="#">Москва</a>
-                </li>
-                <li class="cities-navigation__item">
-                    <a class="cities-navigation__link" href="#">Минск</a>
-                </li>
-            </ul>
-            <ul class="site-navigation__list">
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link" href="#">Программа</a>
-                </li>
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link" href="#">Отзывы</a>
-                </li>
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link" href="#">Стоимость</a>
-                </li>
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link" href="#">О преподавателе</a>
-                </li>
-            </ul>
-            <a class="register" href="#">Запись на курс</a>
-        </nav>
+        <div class="container">
+            <nav class="main-header__nav">
+                <ul class="cities-navigation__list>">
+                    <li class="cities-navigation__item current-city">
+                        <a class="cities-navigation__link" href="#">Санкт-Петербург</a>
+                    </li>
+                    <li class="cities-navigation__item">
+                        <a class="cities-navigation__link" href="#">Москва</a>
+                    </li>
+                    <li class="cities-navigation__item">
+                        <a class="cities-navigation__link" href="#">Минск</a>
+                    </li>
+                </ul>
+                <ul class="site-navigation__list">
+                    <li class="site-navigation__item">
+                        <a class="site-navigation__link" href="#">Программа</a>
+                    </li>
+                    <li class="site-navigation__item">
+                        <a class="site-navigation__link" href="#">Отзывы</a>
+                    </li>
+                    <li class="site-navigation__item">
+                        <a class="site-navigation__link" href="#">Стоимость</a>
+                    </li>
+                    <li class="site-navigation__item">
+                        <a class="site-navigation__link" href="#">О преподавателе</a>
+                    </li>
+                </ul>
+                <a class="register" href="#">Запись на курс</a>
+            </nav>
+        </div>
     </header>
     <main>
         <h1 class="visualiy-hidden">Customer Development</h1>
         <section class="promo">
-            <div class="promo-rating">
-                <h2 class="promo-rating__title">Оценка</h2>
-                <p class="promo-rating__text promo-rating__text--big">9 из 10</p>
-                <p class="promo-rating__text">Иван Матвиенко<br><b>Wimprof</b></p>
-                <a class="promo-rating__link" href="#">Читать отзыв</a>
-            </div>
-            <div class="promo-offer">
-                <h2 class="visually-hidden">Оффлайн-курс Customer Development</h2>
-                <p class="promo-offer__date">Санкт-Петербург 20-21 мая</p>
-                <p class="promo-offer__request">Начни делать Customer Development и проверять гипотезы</p>
-                <p class="promo-offer__about">На оффлайн-курсе из 5 воркшопов</p>
-                <a class="promo-offer__link">Записаться</a>
+            <div class="container">
+                <div class="promo-rating">
+                    <h2 class="promo-rating__title">Оценка</h2>
+                    <p class="promo-rating__text promo-rating__text--big">9 из 10</p>
+                    <p class="promo-rating__text">Иван Матвиенко<br><b>Wimprof</b></p>
+                    <a class="promo-rating__link" href="#">Читать отзыв</a>
+                </div>
+                <div class="promo-offer">
+                    <h2 class="visually-hidden">Оффлайн-курс Customer Development</h2>
+                    <p class="promo-offer__date">Санкт-Петербург 20-21 мая</p>
+                    <p class="promo-offer__request">Начни делать Customer Development и проверять гипотезы</p>
+                    <p class="promo-offer__about">На оффлайн-курсе из 5 воркшопов</p>
+                    <a class="promo-offer__link">Записаться</a>
+                </div>
             </div>
         </section>
         <section class="motivation">
-            <h2 class="motivation-title">Кому и зачем знать Customer Development</h2>
-            <dl class="motivation-list">
-                <div class="motivation-list__item motivation-item">
-                    <dt class="motivation-item__category">Продуктовому дизайнеру</dt>
-                    <dd class="motivation-item__description">лучше узнать потребность клиента и научиться быстро
-                        проверять
-                        прототипы и макеты на пользователях чтобы исправлять ошибки и делать интерфейсы кратно
-                        качественнее</dd>
-                </div>
-                <div class="motivation-list__item motivation-item">
-                    <dt class="motivation-item__category">Продакт-менеджерам</dt>
-                    <dd class="motivation-item__description">идеально знать мотивацию своих пользователей и принимать
-                        продуктовые решения быстрее и значительно качественнее</dd>
-                </div>
-                <div class="motivation-list__item motivation-item">
-                    <dt class="motivation-item__category">Основателям стартапов</dt>
-                    <dd class="motivation-item__description">запустить процесс проверки гипотез в котором вы быстрее и
-                        <strong>значительно</strong> дешевле найдёте product-market fit
-                    </dd>
-                </div>
-            </dl>
+            <div class="container">
+                <h2 class="motivation-title section-title">Кому и зачем знать Customer Development</h2>
+                <dl class="motivation-list">
+                    <div class="motivation-list__item motivation-item">
+                        <dt class="motivation-item__category">Продуктовому дизайнеру</dt>
+                        <dd class="motivation-item__description">лучше узнать потребность клиента и научиться быстро
+                            проверять
+                            прототипы и макеты на пользователях чтобы исправлять ошибки и делать интерфейсы кратно
+                            качественнее</dd>
+                    </div>
+                    <div class="motivation-list__item motivation-item">
+                        <dt class="motivation-item__category">Продакт-менеджерам</dt>
+                        <dd class="motivation-item__description">идеально знать мотивацию своих пользователей и
+                            принимать
+                            продуктовые решения быстрее и значительно качественнее</dd>
+                    </div>
+                    <div class="motivation-list__item motivation-item">
+                        <dt class="motivation-item__category">Основателям стартапов</dt>
+                        <dd class="motivation-item__description">запустить процесс проверки гипотез в котором вы быстрее
+                            и
+                            <strong>значительно</strong> дешевле найдёте product-market fit
+                        </dd>
+                    </div>
+                </dl>
+            </div>
         </section>
         <section class="program">
-            <h2 class="program-title">Что будет на курсе</h2>
-            <dl class="program-list">
-                <div class="program-list__item program-item">
-                    <dt class="program-item__category">7 лекций</dt>
-                    <dd class="program-item__description">насыщенных практикой</dd>
-                </div>
-                <div class="program-list__item program-item">
-                    <dt class="program-item__category">2 гипотезы</dt>
-                    <dd class="program-item__description">минимум, которые проверишь на курсе</dd>
-                </div>
-                <div class="program-list__item program-item">
-                    <dt class="program-item__category">3 методички</dt>
-                    <dd class="program-item__description">с пошаговым описанием действий как провести классный CustDev и
-                        как проверить любую гипотезу</dd>
-                </div>
-                <div class="program-list__item program-item">
-                    <dt class="program-item__category">20 интервью</dt>
-                    <dd class="program-item__description">с пользователями твоего продукта</dd>
-                </div>
-            </dl>
-            <a class="program-link" href="#">Смотреть программу полностью</a>
+            <div class="container">
+                <h2 class="program-title section-title">Что будет на курсе</h2>
+                <dl class="program-list">
+                    <div class="program-list__item program-item">
+                        <dt class="program-item__category">7 лекций</dt>
+                        <dd class="program-item__description">насыщенных практикой</dd>
+                    </div>
+                    <div class="program-list__item program-item">
+                        <dt class="program-item__category">2 гипотезы</dt>
+                        <dd class="program-item__description">минимум, которые проверишь на курсе</dd>
+                    </div>
+                    <div class="program-list__item program-item">
+                        <dt class="program-item__category">3 методички</dt>
+                        <dd class="program-item__description">с пошаговым описанием действий как провести классный
+                            CustDev и
+                            как проверить любую гипотезу</dd>
+                    </div>
+                    <div class="program-list__item program-item">
+                        <dt class="program-item__category">20 интервью</dt>
+                        <dd class="program-item__description">с пользователями твоего продукта</dd>
+                    </div>
+                </dl>
+                <a class="program-link" href="#">Смотреть программу полностью</a>
+            </div>
         </section>
         <section class="result">
-            <h2 class="result-title">Результат</h2>
-            <dl class="result-list">
-                <div class="result-list__item result-item">
-                    <dt class="result-item__category">Ты начнёшь делать Customer Development и проверять гипотезы в
-                        своём проекте</dt>
-                    <dd class="result-item__description">Структура курса построена построена вокруг практики в проектах
-                        участников курса. 100% слушателей этого курса будут применять оба навыка в своих проектах</dd>
-                </div>
-                <div class="result-list__item result-item">
-                    <dt class="result-item__category">Заведенный процесс</dt>
-                    <dd class="result-item__description">Обязательной частью обучения будет встройка процессов
-                        постоянного Customer Development и проверки гипотез в ежедневную рутину</dd>
-                </div>
-                <div class="result-list__item result-item">
-                    <dt class="result-item__category">Инструменты, которые останутся с вами надолго</dt>
-                    <dd class="result-item__description">Все участники курса получат два набора карт — конструкторы, из
-                        которых можно будет собрать идеальный процесс Customer Development и проверить любую гипотезу
-                    </dd>
-                </div>
-                <div class="result-list__item result-item">
-                    <dt class="result-item__category">Кейсы и приёмы топовых компаний рунета</dt>
-                    <dd class="result-item__description">Расскажу и разберём кейсы, хаки и нюансы топовых команд России:
-                        SkyEng, Яндекс, Chatfuel</dd>
-                </div>
-            </dl>
+            <div class="container">
+                <h2 class="result-title section-title">Результат</h2>
+                <dl class="result-list">
+                    <div class="result-list__item result-item">
+                        <dt class="result-item__category">Ты начнёшь делать Customer Development и проверять гипотезы в
+                            своём проекте</dt>
+                        <dd class="result-item__description">Структура курса построена построена вокруг практики в
+                            проектах
+                            участников курса. 100% слушателей этого курса будут применять оба навыка в своих проектах
+                        </dd>
+                    </div>
+                    <div class="result-list__item result-item">
+                        <dt class="result-item__category">Заведенный процесс</dt>
+                        <dd class="result-item__description">Обязательной частью обучения будет встройка процессов
+                            постоянного Customer Development и проверки гипотез в ежедневную рутину</dd>
+                    </div>
+                    <div class="result-list__item result-item">
+                        <dt class="result-item__category">Инструменты, которые останутся с вами надолго</dt>
+                        <dd class="result-item__description">Все участники курса получат два набора карт — конструкторы,
+                            из
+                            которых можно будет собрать идеальный процесс Customer Development и проверить любую
+                            гипотезу
+                        </dd>
+                    </div>
+                    <div class="result-list__item result-item">
+                        <dt class="result-item__category">Кейсы и приёмы топовых компаний рунета</dt>
+                        <dd class="result-item__description">Расскажу и разберём кейсы, хаки и нюансы топовых команд
+                            России:
+                            SkyEng, Яндекс, Chatfuel</dd>
+                    </div>
+                </dl>
+            </div>
         </section>
         <section class="speaker">
-            <h2 class="speaker-title">Почему мне можно доверять</h2>
-            <video class="speaker-video" poster="img/speaker.png" width="727" height="392">
-                <source src="video.mp4" type="video/mp4">
-            </video>
-            <button class="speaker-video__button" type="button">Смотреть видео</button>
-            <div class="speaker-info">
-                <p class="speaker-info__name">Алексей Иванов</p>
-                <p class="speaker-info__post">Ex-Lead Product Manager</p>
+            <div class="container">
+                <h2 class="speaker-title section-title">Почему мне можно доверять</h2>
+                <video class="speaker-video" poster="img/speaker.png" width="727" height="392">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <button class="speaker-video__button" type="button">Смотреть видео</button>
+                <div class="speaker-info">
+                    <p class="speaker-info__name">Алексей Иванов</p>
+                    <p class="speaker-info__post">Ex-Lead Product Manager</p>
+                </div>
+                <dl class="speaker-list">
+                    <div class="speaker-list__item speaker-item">
+                        <dt class="speaker-item__category">Опыт в продукте</dt>
+                        <dd class="speaker-item__description">Отвечал за продукт поиска по изображениям, с помощью
+                            Customer
+                            Development и юзабилити-исследований добились кратного роста метрик</dd>
+                    </div>
+                    <div class="speaker-list__item speaker-item">
+                        <dt class="speaker-item__category">Обучил CustDev 400+ человек</dt>
+                        <dd class="speaker-item__description">400+ человек уже прошли курс по CustDev и проверке гипотез
+                            в
+                            рамках отдельного курса, так и в составе программы "Руководитель digital-продукта"</dd>
+                    </div>
+                    <div class="speaker-list__item speaker-item">
+                        <dt class="speaker-item__category">Опыт разработки бота</dt>
+                        <dd class="speaker-item__description">Создавали с нуля конструктор ботов для Messenger и
+                            выводили в
+                            лидеры рынка конструкторов ботов</dd>
+                    </div>
+                    <div class="speaker-list__item speaker-item">
+                        <dt class="speaker-item__category">Топ-2 — оценка лектора</dt>
+                        <dd class="speaker-item__description">Урезанный курс также читал в крупных digital -школах,
+                            студенты
+                            оценили как Топ-2 преподавателя</dd>
+                    </div>
+                </dl>
             </div>
-            <dl class="speaker-list">
-                <div class="speaker-list__item speaker-item">
-                    <dt class="speaker-item__category">Опыт в продукте</dt>
-                    <dd class="speaker-item__description">Отвечал за продукт поиска по изображениям, с помощью Customer
-                        Development и юзабилити-исследований добились кратного роста метрик</dd>
-                </div>
-                <div class="speaker-list__item speaker-item">
-                    <dt class="speaker-item__category">Обучил CustDev 400+ человек</dt>
-                    <dd class="speaker-item__description">400+ человек уже прошли курс по CustDev и проверке гипотез в
-                        рамках отдельного курса, так и в составе программы "Руководитель digital-продукта"</dd>
-                </div>
-                <div class="speaker-list__item speaker-item">
-                    <dt class="speaker-item__category">Опыт разработки бота</dt>
-                    <dd class="speaker-item__description">Создавали с нуля конструктор ботов для Messenger и выводили в
-                        лидеры рынка конструкторов ботов</dd>
-                </div>
-                <div class="speaker-list__item speaker-item">
-                    <dt class="speaker-item__category">Топ-2 — оценка лектора</dt>
-                    <dd class="speaker-item__description">Урезанный курс также читал в крупных digital -школах, студенты
-                        оценили как Топ-2 преподавателя</dd>
-                </div>
-            </dl>
         </section>
         <section class="gallery">
-            <h2 class="gallery-title">Как проходили прошлые потоки</h2>
-            <ul class="gallery-list">
-                <li class="gallery-list__item">
-                    <img src="img/photo_1.jpg" width="341" height="267" alt="Фото 1">
-                </li>
-                <li class="gallery-list__item">
-                    <img src="img/photo_2.jpg" width="341" height="267" alt="Фото 2">
-                </li>
-                <li class="gallery-list__item">
-                    <img src="img/photo_3.jpg" width="341" height="267" alt="Фото 3">
-                </li>
-                <li class="gallery-list__item">
-                    <img src="img/photo_4.jpg" width="341" height="267" alt="Фото 4">
-                </li>
-                <li class="gallery-list__item">
-                    <img src="img/photo_5.jpg" width="341" height="267" alt="Фото 5">
-                </li>
-                <li class="gallery-list__item">
-                    <img src="img/photo_6.jpg" width="341" height="267" alt="Фото 6">
-                </li>
-                <li class="gallery-list__item">
-                    <img src="img/photo_7.jpg" width="341" height="267" alt="Фото 7">
-                </li>
-                <li class="gallery-list__item">
-                    <img src="img/photo_8.jpg" width="341" height="267" alt="Фото 8">
-                </li>
-            </ul>
+            <div class=" container container-wide">
+                <h2 class="gallery-title section-title">Как проходили прошлые потоки</h2>
+                <ul class="gallery-list">
+                    <li class="gallery-list__item">
+                        <img src="img/photo_1.jpg" width="341" height="267" alt="Фото 1">
+                    </li>
+                    <li class="gallery-list__item">
+                        <img src="img/photo_2.jpg" width="341" height="267" alt="Фото 2">
+                    </li>
+                    <li class="gallery-list__item">
+                        <img src="img/photo_3.jpg" width="341" height="267" alt="Фото 3">
+                    </li>
+                    <li class="gallery-list__item">
+                        <img src="img/photo_4.jpg" width="341" height="267" alt="Фото 4">
+                    </li>
+                    <li class="gallery-list__item">
+                        <img src="img/photo_5.jpg" width="341" height="267" alt="Фото 5">
+                    </li>
+                    <li class="gallery-list__item">
+                        <img src="img/photo_6.jpg" width="341" height="267" alt="Фото 6">
+                    </li>
+                    <li class="gallery-list__item">
+                        <img src="img/photo_7.jpg" width="341" height="267" alt="Фото 7">
+                    </li>
+                    <li class="gallery-list__item">
+                        <img src="img/photo_8.jpg" width="341" height="267" alt="Фото 8">
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="tariff">
-            <h2 class="tariff-title">Стоимость для компаний</h2>
-            <ul class="tariff-list">
-                <li class="tariff-list__item">
-                    <p class="tariff-list__price">32 900 ₽</p>
-                    <p class="tariff-list__description">1 сотрудник</p>
-                    <a class="tariff-list__link" href="#">Оформить</a>
-                </li>
-                <li class="tariff-list__item">
-                    <p class="tariff-list__price">29 900 ₽ / чел</p>
-                    <p class="tariff-list__description">2 сотрудника</p>
-                    <a class="tariff-list__link" href="#">Оформить</a>
-                </li>
-                <li class="tariff-list__item">
-                    <p class="tariff-list__price">29 900 ₽ / чел</p>
-                    <p class="tariff-list__description">5+ сотрудников</p>
-                    <a class="tariff-list__link" href="#">Оформить</a>
-                </li>
-                <li class="tariff-list__item">
-                    <p class="tariff-list__price">25 900 ₽</p>
-                    <p class="tariff-list__description">Тариф «Для себя»</p>
-                    <a class="tariff-list__link" href="#">Оформить</a>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="tariff-title section-title">Стоимость для компаний</h2>
+                <ul class="tariff-list">
+                    <li class="tariff-list__item">
+                        <p class="tariff-list__price">32 900 ₽</p>
+                        <p class="tariff-list__description">1 сотрудник</p>
+                        <a class="tariff-list__link" href="#">Оформить</a>
+                    </li>
+                    <li class="tariff-list__item">
+                        <p class="tariff-list__price">29 900 ₽ / чел</p>
+                        <p class="tariff-list__description">2 сотрудника</p>
+                        <a class="tariff-list__link" href="#">Оформить</a>
+                    </li>
+                    <li class="tariff-list__item">
+                        <p class="tariff-list__price">29 900 ₽ / чел</p>
+                        <p class="tariff-list__description">5+ сотрудников</p>
+                        <a class="tariff-list__link" href="#">Оформить</a>
+                    </li>
+                    <li class="tariff-list__item">
+                        <p class="tariff-list__price">25 900 ₽</p>
+                        <p class="tariff-list__description">Тариф «Для себя»</p>
+                        <a class="tariff-list__link" href="#">Оформить</a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="main-footer">
-        <div class="main-footer__top">
-            <ul class="cities-navigation__list>">
-                <li class="cities-navigation__item current-city">
-                    <a class="cities-navigation__link" href="#">Санкт-Петербург</a>
-                </li>
-                <li class="cities-navigation__item">
-                    <a class="cities-navigation__link" href="#">Москва</a>
-                </li>
-                <li class="cities-navigation__item">
-                    <a class="cities-navigation__link" href="#">Минск</a>
-                </li>
-            </ul>
-            <a class="register" href="#">Запись на курс</a>
-        </div>
-        <div class="main-footer__bottom">
-            <p class="copyright">Все права защищены © 2018</p>
-            <ul class="main-footer__list footer-list">
-                <li class="footer-list__item">
-                    <a class="footer-list__link" href="#">Договор-оферта</a>
-                </li>
-                <li class="footer-list__item">
-                    <a class="footer-list__link" href="#">Политика конфиденциальности</a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="main-footer__top">
+                <ul class="cities-navigation__list>">
+                    <li class="cities-navigation__item current-city">
+                        <a class="cities-navigation__link" href="#">Санкт-Петербург</a>
+                    </li>
+                    <li class="cities-navigation__item">
+                        <a class="cities-navigation__link" href="#">Москва</a>
+                    </li>
+                    <li class="cities-navigation__item">
+                        <a class="cities-navigation__link" href="#">Минск</a>
+                    </li>
+                </ul>
+                <a class="register" href="#">Запись на курс</a>
+            </div>
+            <div class="main-footer__bottom">
+                <p class="copyright">Все права защищены © 2018</p>
+                <ul class="main-footer__list footer-list">
+                    <li class="footer-list__item">
+                        <a class="footer-list__link" href="#">Договор-оферта</a>
+                    </li>
+                    <li class="footer-list__item">
+                        <a class="footer-list__link" href="#">Политика конфиденциальности</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
